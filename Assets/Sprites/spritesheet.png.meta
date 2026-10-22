@@ -136,6 +136,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: half_wall_temp
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75798661596b4d54b97d672429f6d9f3
+      internalID: 1139331787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quarter_wall_temp
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759a2873cd90af24582764908d187faa
+      internalID: 507423150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -150,6 +194,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      half_wall_temp: 1139331787
+      quarter_wall_temp: 507423150
       wall_temp: 8020143640844766479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

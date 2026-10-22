@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        CheckSurroundings();
         SetMovementDirection();
     }
 
@@ -83,6 +84,17 @@ public class PlayerMovement : MonoBehaviour
             _movingLeft = false;
             _movingDown = false;
             _movingRight = false;
+        }
+    }
+
+    private void CheckSurroundings()
+    {
+        RaycastHit2D hitNorth = Physics2D.Raycast(transform.position, Vector2.up, 1);
+        //set up layer that only includes walls and use that?
+
+        if (hitNorth.collider)
+        {
+            Debug.Log($"Hitting North Wall!");
         }
     }
 }
